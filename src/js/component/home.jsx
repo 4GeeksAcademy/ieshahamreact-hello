@@ -5,7 +5,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 import NavBar from "./Navbar";
 import Jumbotron from "./Jumbotron";
 import Card from "./Card";
-import Card2 from "./Card"
+import Footer from "./Footer";
 
 //create your first component
 const Home = () => {
@@ -24,14 +24,32 @@ const Home = () => {
                 paragraph="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco."
                 button="Call to action!"
             />
-        
+        <div className="d-flex flex-wrap justify-content-evenly">
          <Card
             cardTitle="Card title"
             cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
             cardButton="Find Out More!"
             />
-        
+         <Card
+            cardTitle="Card title"
+            cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+            cardButton="Find Out More!"
+            />
+              <Card
+            cardTitle="Card title"
+            cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+            cardButton="Find Out More!"
+            />
+              <Card
+            cardTitle="Card title"
+            cardText="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
+            cardButton="Find Out More!"
+            />
+        </div>
     
+            <Footer
+               
+        />
         </>
     );
 };
