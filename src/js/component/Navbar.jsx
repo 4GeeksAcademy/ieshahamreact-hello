@@ -10,19 +10,19 @@ const NavBar = ({ title, navLabel1, navLabel2, navLabel3, navLabel4 }) => (
       </button>
       <div className="collapse navbar-collapse justify-content-between" id="navbarText">
         <ul className="navbar-nav">
-          <li className="nav-item">
-            <a className="nav-link active" aria-current="page" href="#">{navLabel1}</a>
-          </li>
         </ul>
         <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-          <li className="nav-item">
-            <a className="nav-link" href="#">{navLabel2}</a>
+        <li className="nav-item">
+            <a className="nav-link" href="#">{navLabel1}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">{navLabel3}</a>
+            <a className="tab2 nav-link" href="#">{navLabel2}</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#">{navLabel4}</a>
+            <a className="tab3 nav-link" href="#">{navLabel3}</a>
+          </li>
+          <li className="nav-item">
+            <a className="tab4 nav-link" href="#">{navLabel4}</a>
           </li>
         </ul>
       </div>
